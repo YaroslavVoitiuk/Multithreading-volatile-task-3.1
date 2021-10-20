@@ -23,7 +23,7 @@ public class Box {
     }
 
     public void closeBox() {
-        while (currCycleVal != 3) {
+        while (currCycleVal != CYCLES_QUAN) {
             if (isOpen) {
                 isOpen = false;
                 System.out.println("Box is closed");
